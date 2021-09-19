@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<body>
+<!-- Navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-menu">
+        <div class="container-fluid">
+                <img src="https://image.flaticon.com/icons/png/128/761/761505.png" >
+                <a class="navbar-brand" href="#">Travel Agency Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active px-4" aria-current="page" href="#carouselExampleIndicators">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-4" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-4" href="#place">Place</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-4" href="#packages">Packages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-4" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <button>Sign In</button>
+                        </li>
+                        <li class="nav-item">
+                            <button>Sign Up</button>
+                        </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!-- Navbar end -->
+
+<!-- Slide Img start -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="./img/slide1.jpeg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./img/slide2.jpeg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./img/slide3.jpeg" alt="Third slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+<!-- Slide Img end -->
+
+<!-- search start -->
+<div class="container">
+    <div>
+        <label>User Keywords</label><br>
+        <input type="password"> 
+    </div>
+    <div>
+        <label>Category Place</label><br>
+        <input type="text" placeholder="England,Liverpool ">
+    </div>
+    <div>
+        <label>Date & Time</label><br>
+        <input type="datetime-local" placeholder=""> 
+    </div>
+    <div class="sub">
+        <label>Submit</label><br>
+        <input type="submit">
+    </div>
+</div>
+<!-- search start -->
+
+<marquee direction="left"><h1>မင်္ဂလာပါ Travel Agency Home မှမိတ်ဆွေ customers များကိုအထူးပင်ကျေးဇူးတင်ပါသည်</h1></marquee>
+
+<!-- About start -->
+<div class="title" id="about">
+    <h1>About <span>Us</span></h1>
+</div>
+<div class="container1">
+    <div class="text">
+        <h2>David Beckham (Founder & CEO)</h2>
+        <p>David Robert Joseph Beckham OBE[4] (UK: /ˈbɛkəm/;[5] born 2 May 1975) is an English<br>
+            former professional footballer, the current president & co-owner of Inter Miami CF and co <br>
+            owner of Salford City.[6] He played for Manchester United, Preston North End (on loan), <br>
+            Real(on loan), Real Madrid, AC Milan (on loan), LA Galaxy, Paris Saint-Germain and the <br>
+            England national team, for which he held the appearance record for an outfield player until <br>
+        </p>
+
+        <p> David Robert Joseph Beckham OBE[4] (UK: /ˈbɛkəm/;[5] born 2 May 1975) is an English<br>
+            former professional footballer, the current president & co-owner of Inter Miami CF and co <br>
+            owner of Salford City.[6] He played for Manchester United, Preston North End (on loan), <br>
+            Real(on loan), Real Madrid, AC Milan (on loan), LA Galaxy, Paris Saint-Germain and the <br>
+            England national team, for which he held the appearance record for an outfield player until <br>
+            2016.
+        </p>
+
+        <button>More</button>
+    </div>
+    <div class="ceo">
+        <img src="https://i.pinimg.com/474x/7a/33/0b/7a330bd7ef38604c0cbf8ea4b5d05ff8.jpg" alt="">
+    </div>
+</div>
+<!-- About end -->
+
+<div class="title" id="place">
+    <h1>Popular <span>Places</span></h1>
+</div>
+
+<!-- Popular Places Start -->
+<div class="container2" >
+<div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://cdn.pixabay.com/photo/2016/11/14/03/44/girls-1822521__480.jpg" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">Japan,Tokyo</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Book Now</a>
+    </div>
+</div>
+<div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://a.cdn-hotels.com/gdcs/production181/d401/8351bef0-ef7f-4979-b020-21621c88cdc0.jpg?impolicy=fcrop&w=800&h=533&q=high" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">Switzerland,Zurich</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Book Now</a>
+    </div>
+</div>
+<div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://www.planetware.com/wpimages/2020/03/england-top-rated-cities-london.jpg" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">UK,England</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Book Now</a>
+    </div>
+</div>
+<div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://www.immigrantspirit.com/wp-content/uploads/2013/11/marienplatz-munich.jpg" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">Germany,Berlin</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Book Now</a>
+    </div>
+</div>
+</div>
+<div class="container2">
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://assets.wego.com/image/upload/v1611848131/country-pages/fr.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">France,Paris</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Book Now</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1098,format=auto/sites/default/files/styles/1200x800/public/d8/images/methode/2021/07/21/f1ed2b88-e936-11eb-b928-713afa0cd390_image_hires_005249.jpg?itok=9dwH4ADZ&v=1626799977" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Singapore</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Book Now</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://www.atlanticcouncil.org/wp-content/uploads/2020/09/Rome-coroavirus-large-1024x683.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Italy, Rome</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Book Now</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://cdn.cnn.com/cnnnext/dam/assets/170706113411-spain.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Spain,Madraid</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Book Now</a>
+        </div>
+    </div>
+</div>
+<!-- Popular Places end -->
+
+<div class="title" id="packages">
+    <h1> Great <span>Packages</span></h1>
+</div>
+
+<!-- Packages start -->
+<div class="container3">
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Gold Member</h5>
+            <span>$2000</span>
+            <p class="card-text">
+                <i class="fas fa-check"></i> Medium Services <br>
+                <i class="fas fa-check"></i> Lowest Class Airfare <br>
+                <i class="fas fa-check"></i> 5 Star Hotel <br>
+                <i class="fas fa-check"></i> Good facility <br>
+                <i class="fas fa-check"></i> Pool
+            </p>
+            <a href="#" class="btn btn-primary">Call Us</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title"> Silver Member</h5>
+            <span>$3000</span>
+            <p class="card-text">
+                <i class="fas fa-check"></i> Good Services <br>
+                <i class="fas fa-check"></i> Bussiness Airfare <br>
+                <i class="fas fa-check"></i> 5 Star Hotel <br>
+                <i class="fas fa-check"></i> Food Only Breakfast <br>
+                <i class="fas fa-check"></i> Pool
+            </p>
+            <a href="#" class="btn btn-primary">Call Us</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Diamond Member</h5>
+            <span>$5000</span>
+            <p class="card-text">
+                <i class="fas fa-check"></i> Excellent Services <br>
+                <i class="fas fa-check"></i> Bussiness Class Jet  <br>
+                <i class="fas fa-check"></i> 5 Star Hotel <br>
+                <i class="fas fa-check"></i> Fresh Food & BBQ <br>
+                <i class="fas fa-check"></i> Party & Birthday 
+            </p>
+            <a href="#" class="btn btn-primary">Call Us</a>
+        </div>
+    </div>
+</div>
+<!-- Packages end -->
+
+<div class="title" id="contact">
+    <h1> Contact<span> Us </span></h1>
+</div>
+
+<!-- Contact start -->
+<div class="container4">
+    <div class="contact-img">
+        <img src="../Mobile login-bro.svg" alt="">
+    </div>
+    <div class="contact-form">
+        <h1>Log In</h1>
+        <div class="user">
+            <span class="first"><i class="far fa-user"></i> Your Name</span>
+            <span class="second"><i class="far fa-copy"></i></span>
+        </div>
+        <div class="user">
+            <span class="first"><i class="fas fa-unlock-alt"></i>  Your Password</span>
+            <span class="second"><i class="far fa-copy"></i></span>
+        </div>
+        <div class="user">
+            <span class="first"><i class="fas fa-unlock-alt"></i>  Confirm Password</span>
+            <span class="second"><i class="far fa-copy"></i></span>
+        </div>
+        <div class="check">
+            <input type="checkbox">  
+            <span>Remember me</span>
+        </div>
+        <div class="create">
+            <a href="#">Create an account</a>
+            <p>Or</p>
+            <h6>Login with<i class="fab fa-facebook-square"></i> <i class="fab fa-twitter-square"></i> <i class="fab fa-instagram"></i></h6>
+        </div>
+    </div>
+</div>
+<!-- Contact end -->
+
+<!-- Foot start -->
+<div class="container5">
+    <div class="left9">
+        <h1>About us</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+        ducimus praesentium perferendis commodi eaque nam la <br>
+        laboriosam velit pariatur tempora corporis ullam unde n <br>
+        quae, cumque voluptate molestiae tenetur nesciunt, nihil <br>
+        quasi assumenda iste alias dolores. Amet provident volup</p>
+    </div>
+    <div class="middle9">
+        <h1>FAQ</h1>
+        <h3>Free Dowload</h3>
+        <h3>Contact US </h3>
+        <h3>Free Shipping</h3>  
+    </div>
+    <div class="middle10">
+        <h1>Sponsor</h1>
+        <h3>Apple</h3>
+        <h3>Google</h3>
+        <h3>Royal Express</h3>  
+    </div>
+    <div class="right9">
+        <h1>Highlight</h1>
+        <iframe class="G" width="160" height="100px" src="https://www.youtube.com/embed/X2lIovmNsUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       
+    </div>
+</div>
+<div class="line"></div>
+<div class="container6">
+    <h1>&#x000A9; Copy Right Reserved |  Designed By Zwe Htet Aung</h1>
+</div>
+<!-- Foot end -->
+
+</body>
+</html>
